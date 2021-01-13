@@ -1,0 +1,3 @@
+@function width($parent-width, $element-width) {
+  @return ($element-width / $parent-width) * 100%;
+}

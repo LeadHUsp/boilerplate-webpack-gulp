@@ -1,0 +1,8 @@
+// Fonts here
+// see more: https://github.com/vedees/webpack-template/blob/master/README.md#import-js-files
+@import 'utils/mixins';
+
+@include fontLink('Uni Neue', '../../fonts/', 'UniNeueBold', bold, normal);
+@include fontLink('Uni Neue', '../../fonts/', 'UniNeueBook', normal, normal);
+@include fontLink('Uni Neue', '../../fonts/', 'UniNeueRegular', 500, normal);
+@include fontLink('Uni Neue', '../../fonts/', 'UniNeueHeavy', 800, normal);
